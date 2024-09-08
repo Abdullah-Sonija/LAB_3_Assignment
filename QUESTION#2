@@ -4,9 +4,9 @@ int main() {
 	int a, b, temp;
 
 	// Taking the input
-	printf("enter the first integer: ")
+	printf("enter the first integer: ");
 	scanf("%d", &a);
-	printf("enter the second integer: ")
+	printf("enter the second integer: ");
 	scanf("%d", &b);
 
 	// Swapping the values
@@ -16,6 +16,8 @@ int main() {
 	
 	// Displaying the output
 	printf("a = %d, b = %d\n", a,b);
+	
+system("pause");
 
 	return 0;
 }
