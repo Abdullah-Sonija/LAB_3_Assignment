@@ -50,5 +50,7 @@ int main() {
 
 	printf("Simple Interest for the given input is: %.2f Rs.\n", interest);
 
+	system("pause");
+
 	return 0;
 }
