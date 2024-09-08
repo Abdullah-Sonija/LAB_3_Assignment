@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 int main() {
 	float fuelAverage, totalFuelConsumed, totalCost;
@@ -21,7 +21,7 @@ int main() {
 		printf("Fuel average must be a positive value. Please try again.\n");
 
 		}
-	} while (fuelAverage >= 0);
+	} while (fuelAverage <= 0);
 
 		// Calculating total fuel consumed (both ways)
 		totalFuelConsumed = (2 * distance) / fuelAverage;
@@ -32,6 +32,8 @@ int main() {
 	// Displaying the total fuel consumption and total fuel cost
 	printf("Total fuel consumed for the trip: %.2f liters\n", totalFuelConsumed);
 	printf("Total fuel cost for the trip: %.2f\n", totalCost);
+
+	system("pause");
 
 	return 0;
 }
