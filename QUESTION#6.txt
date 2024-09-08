@@ -12,5 +12,7 @@ int main() {
 	// Displaying the result with 3 decimal places
 	printf("The slope of the line passing through points (%.1f, %.1f) and (%.1f, %.1f) is: %.3f\n", x1, y1, x2, y2, slope);
 
-	return 0;
+system("pause");
+
+return 0;
 }
