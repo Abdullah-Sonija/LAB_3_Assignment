@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 int main() {
 
@@ -20,6 +20,8 @@ int main() {
 	// Displaying the calculated tax and net salary
 	printf("You need to pay a tax of: %.3f\n", taxAmount);
 	printf("Your salary after tax is: %.3f\n", netSalary);
+
+	system("pause");
 
 return 0;
 }
